@@ -1,0 +1,43 @@
+@startuml
+title クラス図
+class Form1
+
+class Panel
+abstract class GamePanelParent
+
+class PanelCharacterControler
+class PanelItemControler
+
+class ItemSpace
+class ItemArea
+class ItemAreaList
+class ItemAreaTitle
+class ItemCell
+
+class menuPanel
+class menuCell
+
+Panel <|-- GamePanelParent
+
+GamePanelParent<|--PanelCharacterControler
+GamePanelParent<|--PanelItemControler
+
+Form1-->PanelCharacterControler
+Form1-->PanelItemControler
+
+PanelCharacterControler-->ItemSpace
+PanelItemControler-->ItemSpace
+
+ItemSpace o-- ItemArea
+
+ItemAreaTitle - ItemArea
+ItemArea - ItemAreaList
+
+ItemArea o-- ItemCell
+
+PanelCharacterControler-->menuPanel
+PanelItemControler-->menuPanel
+
+menuPanel o-- menuCell
+
+@enduml

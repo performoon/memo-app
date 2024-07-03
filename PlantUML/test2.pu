@@ -1,0 +1,7 @@
+@startuml
+title staticクラス
+
+class ClassPanelChanger
+class Factory
+class SqlConect
+@enduml

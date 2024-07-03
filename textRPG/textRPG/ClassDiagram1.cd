@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="textRPG.Form1">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="PanelCharacterControler" Type="textRPG.PanelCharacterControler">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.254" Y="-0.124" Height="0.182" Width="1.888" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="PanelItemControler" Type="textRPG.PanelItemControler">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.493" Y="0.834" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAABADAAAACAAADACAICgAAIgAAAAAIABQABAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PanelCharacterControler" />
+      <Property Name="PanelItemControler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="textRPG.GamePanelParent">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAEAEAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAABEA=</HashCode>
+      <FileName>GamePanels\GamePanelParent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="textRPG.PanelCharacterControler">
+    <Position X="19.25" Y="5" Width="1.5" />
+    <AssociationLine Name="ItemSpace" Type="textRPG.ItemSpace" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.125" Y="7.387" />
+        <Point X="20.125" Y="7.558" />
+        <Point X="20.562" Y="7.558" />
+        <Point X="20.562" Y="7.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.123" Y="0.126" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAEAAAAAAEAAAAAAAAAAAABAAWAAAAAAAAA=</HashCode>
+      <FileName>GamePanels\PanelCharacterControler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ItemSpace" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="textRPG.PanelItemControler">
+    <Position X="21" Y="5" Width="1.5" />
+    <AssociationLine Name="ItemSpace" Type="textRPG.ItemSpace">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.097" Y="0.283" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAEAAAAAAEAAAAAAAAAAAABAAWAAAAAAAAA=</HashCode>
+      <FileName>GamePanels\PanelItemControler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ItemSpace" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="textRPG.ItemSpace">
+    <Position X="20" Y="7.75" Width="1.5" />
+    <AssociationLine Name="ItemAreaTitle" Type="textRPG.ItemAreaTitle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="8.688" />
+        <Point X="21.5" Y="8.536" />
+        <Point X="23.136" Y="8.536" />
+        <Point X="23.136" Y="3.995" />
+        <Point X="24.25" Y="3.995" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePanels\ItemSpace.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ItemAreaTitle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="textRPG.menuPanel">
+    <Position X="26.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACABAAAAAAgAAIAAAAAAA=</HashCode>
+      <FileName>GamePanels\menuPanel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="menuCell" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="textRPG.menuCell">
+    <Position X="26.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAACAAAAAAACEAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>GamePanels\menuPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="textRPG.ItemCell">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQAAAABAAAAAEAAIAAAACCCAAMoAAQAEAAACADEEQ=</HashCode>
+      <FileName>GamePanels\ItemCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="textRPG.ItemAreaList">
+    <Position X="24.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAgCAIAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>GamePanels\ItemArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="textRPG.ItemArea">
+    <Position X="24.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIABAAACAIAEAACAAAAAAAAAAEg=</HashCode>
+      <FileName>GamePanels\ItemArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="textRPG.ItemAreaTitle">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAEAAAAAAAAIAAAQACAMAMAAAQAAAACAAAEEA=</HashCode>
+      <FileName>GamePanels\ItemArea.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ItemCell" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="textRPG.Factory">
+    <Position X="18.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>statics\Factory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="textRPG.statics.SqlConect">
+    <Position X="18.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>statics\SqlConect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="textRPG.ClassPanelChanger">
+    <Position X="18.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAQAAAAAAAAQAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>statics\ClassPanelChanger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>
