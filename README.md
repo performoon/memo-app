@@ -2,10 +2,16 @@
 
 ゲーム開発に使う、アイデアをメモするデスクトップアプリケーション
 
-## 使用技術
+## 開発環境
 
-.NET Framework 4.7.2
+仮想環境：VMWere
 
-Microsoft SQL Server
+エディタ：Microsoft VisualStudio
+
+フレームワーク：.NET Framework 4.7.2
+
+データベース：Microsoft SQL Server
+
+### その他使用技術
 
 PlantUML(ドキュメントの作成)
