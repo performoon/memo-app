@@ -61,13 +61,7 @@
     <Compile Include="GamePanels\menuPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="GamePanels\notUse\PanelBattleControler.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="GamePanels\PanelCharacterControler.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="GamePanels\notUse\PanelEquipmentControler.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="statics\Factory.cs" />
@@ -82,12 +76,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GamePanels\notUse\PanelShopControler.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="GamePanels\notUse\PanelStageControler.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="statics\ClassPanelChanger.cs" />
     <Compile Include="statics\SqlConect.cs" />
     <Compile Include="tools\TextBoxEx.cs">

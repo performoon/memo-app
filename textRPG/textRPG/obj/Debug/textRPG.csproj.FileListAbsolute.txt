@@ -53,3 +53,14 @@ C:\Users\Administrator\Desktop\vs_workSpace\20230126\textRPG\textRPG\obj\Debug\t
 C:\Users\Administrator\Desktop\vs_workSpace\20230126\textRPG\textRPG\obj\Debug\textRPG.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\vs_workSpace\20230126\textRPG\textRPG\obj\Debug\textRPG.exe
 C:\Users\Administrator\Desktop\vs_workSpace\20230126\textRPG\textRPG\obj\Debug\textRPG.pdb
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\bin\Debug\textRPG.exe.config
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\bin\Debug\textRPG.exe
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\bin\Debug\textRPG.pdb
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\obj\Debug\textRPG.csproj.AssemblyReference.cache
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\obj\Debug\textRPG.Form1.resources
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\obj\Debug\textRPG.GamePanelParent.resources
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\obj\Debug\textRPG.Properties.Resources.resources
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\obj\Debug\textRPG.csproj.GenerateResource.cache
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\obj\Debug\textRPG.csproj.CoreCompileInputs.cache
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\obj\Debug\textRPG.exe
+E:\pg\VisualStudio\created\20230126\textRPG\textRPG\obj\Debug\textRPG.pdb

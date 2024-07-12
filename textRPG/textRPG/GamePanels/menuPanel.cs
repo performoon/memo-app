@@ -24,18 +24,7 @@ namespace textRPG
 
             this.itemClassMenuButtons = new List<menuCell> { };
 
-            /*
-                this.itemClassMenuButtons[i] = new Panel();
-                this.itemClassMenuButtons[i].Name = i.ToString();
-                this.itemClassMenuButtons[i].SetBounds(location.X+(buttonSize.Width+1)*i,location.Y, buttonSize.Width, buttonSize.Height);
-                this.itemClassMenuButtons[i].BackColor = Color.Coral;
-                this.itemClassMenuButtons[i].Visible = true;
-                this.itemClassMenuButtons[i].Tag = "Frame";
-           
-
-                this.Controls.Add(itemClassMenuButtons[i]);
-                Console.WriteLine(i);
-            */
+            
         }
 
         internal menuCell menuCell

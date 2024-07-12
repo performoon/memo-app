@@ -240,36 +240,6 @@ namespace textRPG
                                 // */
                             }
                         }
-
-                        //using (SqlDataReader reader = command.ExecuteReader())
-                        //{
-                        //    while (reader.Read())
-                        //    {
-                        //        // SQLの型をC#の型に変換する.参考：https://qiita.com/Kakeishi_Misa/items/ab9851fc54e549478194
-                        //        createIS();
-                        //        if (ia1 == null)
-                        //        {
-                        //            createIA();
-                        //        }
-                        //        while (Convert.ToInt32(reader["itemAreaID"]) != ia1.AreaNumber)
-                        //        {
-                        //            Console.WriteLine(Convert.ToInt32(reader["itemAreaID"])+ "areaNumber is :" + ia1.AreaNumber);
-                        //            createIA();
-                        //        }
-                        //        if (ic1 == null)
-                        //        {
-                        //            createIC();
-                        //        }
-                        //        /*
-                        //        while (Convert.ToInt32(reader["itemID"]) == ic1.ItemNumber) {
-                        //            Console.WriteLine(reader["itemID"] + ":"
-                        //                            + reader["itemName"] + ":"
-                        //                            + reader["itemClass"]);
-                        //        }
-                        //        */
-                        //        Console.WriteLine("DB is"+Convert.ToInt32(reader["itemID"]));
-                        //    }
-                        //}
                     }
                 }
             }
@@ -360,10 +330,6 @@ namespace textRPG
                 {
                     currentPanel = itemClassMenu.itemClassMenuButtons[i];
                     idx = i;
-                    /*
-                    Console.WriteLine(is1.itemAreas[idx].Name);
-                    Console.WriteLine("idx は"+idx);
-                    */
                     break;
                 }
             }

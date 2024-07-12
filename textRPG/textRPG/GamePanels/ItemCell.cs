@@ -191,21 +191,6 @@ namespace textRPG
                         command.Connection = connection;
                         command.CommandText = sqlstr;
 
-                        /*
-                        Console.WriteLine("selectSQL:" + sqlstr);
-                        Console.WriteLine("結果:" + command.ExecuteNonQuery());
-                        if (command.ExecuteNonQuery()==0)
-                        {
-                            Console.WriteLine("一致しているデータがないよ。インサートするよ");
-                            flg = false;
-                        }
-                        else
-                        {
-                            Console.WriteLine("一致してるデータがあったよ。アップデートするよ");
-                            flg = true;
-                        }
-                        */
-
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
 
@@ -296,21 +281,6 @@ namespace textRPG
                         command.Connection = connection;
                         command.CommandText = sqlstr;
 
-                        /*
-                        Console.WriteLine("selectSQL:" + sqlstr);
-                        Console.WriteLine("結果:" + command.ExecuteNonQuery());
-                        if (command.ExecuteNonQuery()==0)
-                        {
-                            Console.WriteLine("一致しているデータがないよ。インサートするよ");
-                            flg = false;
-                        }
-                        else
-                        {
-                            Console.WriteLine("一致してるデータがあったよ。アップデートするよ");
-                            flg = true;
-                        }
-                        */
-
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
 
@@ -389,21 +359,6 @@ namespace textRPG
 
                         command.Connection = connection;
                         command.CommandText = sqlstr;
-
-                        /*
-                        Console.WriteLine("selectSQL:" + sqlstr);
-                        Console.WriteLine("結果:" + command.ExecuteNonQuery());
-                        if (command.ExecuteNonQuery()==0)
-                        {
-                            Console.WriteLine("一致しているデータがないよ。インサートするよ");
-                            flg = false;
-                        }
-                        else
-                        {
-                            Console.WriteLine("一致してるデータがあったよ。アップデートするよ");
-                            flg = true;
-                        }
-                        */
 
                         using (SqlDataReader reader = command.ExecuteReader())
                         {

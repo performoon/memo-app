@@ -29,7 +29,6 @@ namespace textRPG
             this.Size = new Size(800, 600);
             this.Location = new Point(105, 12);
             this.Tag += "gamePanel";
-            //this.BackColor = setColor;
 
             useTable = table;
             useAreaTable = useTable + "Area";

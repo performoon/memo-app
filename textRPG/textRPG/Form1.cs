@@ -70,31 +70,6 @@ namespace textRPG
                 connection.Close();
             }
 
-            /*
-            string constr = @"Data Source=localhost\SQLEXPRESS;
-                            Initial Catalog=idea;
-                            Connect Timeout=60;
-                            User ID = admin;
-                            Password = qwe123;";
-            
-
-            var dt = new DataTable();
-            using (var con = new SqlConnection(constr))
-            {
-                var sqlstr = "Select * from item";
-                try
-                {
-                    var com = new SqlCommand(sqlstr, con);
-                    var sda = new SqlDataAdapter(com);
-                    sda.Fill(dt);
-                }
-                catch (Exception err)
-                {
-                    Console.WriteLine("エラー");
-                }
-
-            }
-            */
 
 
             characterCon = new PanelCharacterControler(this, "character");

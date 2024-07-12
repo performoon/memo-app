@@ -138,7 +138,6 @@ namespace textRPG
                                 }
 
 
-                                // /*
                                 
                                 // SQLの型をC#の型に変換する.参考：https://qiita.com/Kakeishi_Misa/items/ab9851fc54e549478194
 
@@ -150,8 +149,6 @@ namespace textRPG
                                 {
                                     int i = 0;
                                     currentArea = (ItemArea)is1.itemAreas[0];
-                                    // アイテム情報から、アイテム情報を追加するエリアを探索
-                                   // while (((ItemArea)is1.itemAreas[i] != null) && (Convert.ToInt32(reader["itemAreaID"]) != ((ItemArea)is1.itemAreas[i]).AreaNumber))
                                     while ((Convert.ToInt32(reader["itemAreaID"]) != ((ItemArea)is1.itemAreas[i]).AreaNumber))
                                     {
                                         Console.WriteLine("i = "+i);
@@ -237,39 +234,8 @@ namespace textRPG
                                     }
                                     
                                 }
-                                // */
                             }
                         }
-
-                        //using (SqlDataReader reader = command.ExecuteReader())
-                        //{
-                        //    while (reader.Read())
-                        //    {
-                        //        // SQLの型をC#の型に変換する.参考：https://qiita.com/Kakeishi_Misa/items/ab9851fc54e549478194
-                        //        createIS();
-                        //        if (ia1 == null)
-                        //        {
-                        //            createIA();
-                        //        }
-                        //        while (Convert.ToInt32(reader["itemAreaID"]) != ia1.AreaNumber)
-                        //        {
-                        //            Console.WriteLine(Convert.ToInt32(reader["itemAreaID"])+ "areaNumber is :" + ia1.AreaNumber);
-                        //            createIA();
-                        //        }
-                        //        if (ic1 == null)
-                        //        {
-                        //            createIC();
-                        //        }
-                        //        /*
-                        //        while (Convert.ToInt32(reader["itemID"]) == ic1.ItemNumber) {
-                        //            Console.WriteLine(reader["itemID"] + ":"
-                        //                            + reader["itemName"] + ":"
-                        //                            + reader["itemClass"]);
-                        //        }
-                        //        */
-                        //        Console.WriteLine("DB is"+Convert.ToInt32(reader["itemID"]));
-                        //    }
-                        //}
                     }
                 }
             }
